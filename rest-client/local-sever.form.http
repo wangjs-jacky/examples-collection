@@ -1,0 +1,14 @@
+POST /urlencoded HTTP/1.1
+Host: localhost:8082
+Content-Type: multipart/form-data; boundary=jacky
+
+--jacky
+Content-Disposition: form-data; name="loginId"
+
+admin
+--jacky--
+--jacky
+Content-Disposition: form-data; name="loginPwd"
+
+123456
+--jacky--

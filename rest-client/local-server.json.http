@@ -1,0 +1,5 @@
+POST /urlencoded HTTP/1.1
+Host: localhost:8082
+Content-Type: application/json
+
+{ "loginId": "admin", "loginPwd": "123123" }
