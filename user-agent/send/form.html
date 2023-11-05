@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form表单的示例</title>
+</head>
+
+<body>
+  <!-- ❎ 错误写法 -->
+  <!--  <form action="localhost:7000/d" method="post"> -->
+  <form action="localhost:7000/d" method="post">
+    <p>
+      账号：<input type="text" name="loginId">
+    </p>
+    <p>
+      密码： <input type="text" name="loginPwd">
+    </p>
+    <button type="submit">登录</button>
+  </form>
+</body>
+
+<script>
+  /* 在 antd 等表单组件中，会对 form 的提交行为拦截 */
+  /* const form = document.querySelector("form");
+
+  form.onsubmit = (e) => {
+    e.preventDefault();
+    console.log("任意逻辑代码");
+  } */
+
+</script>
+
+</html>
